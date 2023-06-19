@@ -1,0 +1,78 @@
+CRITICAL - 2022-03-01 00:46:47 --> Undefined property: CodeIgniter\HTTP\Response::$created_at
+#0 C:\xampp\htdocs\irigasisaddang\app\Controllers\Api.php(859): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 859)
+#1 C:\xampp\htdocs\irigasisaddang\system\CodeIgniter.php(825): App\Controllers\Api->send_sipasi()
+#2 C:\xampp\htdocs\irigasisaddang\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#3 C:\xampp\htdocs\irigasisaddang\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\irigasisaddang\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\irigasisaddang\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-03-01 00:47:28 --> Cannot use object of type CodeIgniter\HTTP\Response as array
+#0 C:\xampp\htdocs\irigasisaddang\system\CodeIgniter.php(825): App\Controllers\Api->send_sipasi()
+#1 C:\xampp\htdocs\irigasisaddang\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#2 C:\xampp\htdocs\irigasisaddang\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\irigasisaddang\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\irigasisaddang\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-03-01 00:47:48 --> Undefined property: CodeIgniter\HTTP\Response::$created_at
+#0 C:\xampp\htdocs\irigasisaddang\app\Controllers\Api.php(859): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 859)
+#1 C:\xampp\htdocs\irigasisaddang\system\CodeIgniter.php(825): App\Controllers\Api->send_sipasi()
+#2 C:\xampp\htdocs\irigasisaddang\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#3 C:\xampp\htdocs\irigasisaddang\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\irigasisaddang\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\irigasisaddang\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-03-01 00:47:54 --> Undefined property: CodeIgniter\HTTP\Response::$created_at
+#0 C:\xampp\htdocs\irigasisaddang\app\Controllers\Api.php(859): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 859)
+#1 C:\xampp\htdocs\irigasisaddang\system\CodeIgniter.php(825): App\Controllers\Api->send_sipasi()
+#2 C:\xampp\htdocs\irigasisaddang\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#3 C:\xampp\htdocs\irigasisaddang\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\irigasisaddang\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\irigasisaddang\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-03-01 00:48:16 --> Object of class CodeIgniter\HTTP\Response could not be converted to string
+#0 C:\xampp\htdocs\irigasisaddang\system\CodeIgniter.php(825): App\Controllers\Api->send_sipasi()
+#1 C:\xampp\htdocs\irigasisaddang\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#2 C:\xampp\htdocs\irigasisaddang\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\irigasisaddang\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\irigasisaddang\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-03-01 00:49:38 --> json_decode(): Argument #1 ($json) must be of type string, CodeIgniter\HTTP\Response given
+#0 C:\xampp\htdocs\irigasisaddang\app\Controllers\Api.php(852): json_decode(Object(CodeIgniter\HTTP\Response))
+#1 C:\xampp\htdocs\irigasisaddang\system\CodeIgniter.php(825): App\Controllers\Api->send_sipasi()
+#2 C:\xampp\htdocs\irigasisaddang\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#3 C:\xampp\htdocs\irigasisaddang\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\irigasisaddang\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\irigasisaddang\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-03-01 00:52:32 --> Attempt to read property "created_at" on string
+#0 C:\xampp\htdocs\irigasisaddang\app\Controllers\Api.php(862): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 862)
+#1 C:\xampp\htdocs\irigasisaddang\system\CodeIgniter.php(825): App\Controllers\Api->send_sipasi()
+#2 C:\xampp\htdocs\irigasisaddang\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#3 C:\xampp\htdocs\irigasisaddang\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\irigasisaddang\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\irigasisaddang\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-03-01 00:52:50 --> json_decode(): Argument #1 ($json) must be of type string, CodeIgniter\HTTP\Response given
+#0 C:\xampp\htdocs\irigasisaddang\app\Controllers\Api.php(852): json_decode(Object(CodeIgniter\HTTP\Response))
+#1 C:\xampp\htdocs\irigasisaddang\system\CodeIgniter.php(825): App\Controllers\Api->send_sipasi()
+#2 C:\xampp\htdocs\irigasisaddang\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#3 C:\xampp\htdocs\irigasisaddang\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\irigasisaddang\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\irigasisaddang\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-03-01 00:54:24 --> Attempt to read property "created_at" on array
+#0 C:\xampp\htdocs\irigasisaddang\app\Controllers\Api.php(860): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 860)
+#1 C:\xampp\htdocs\irigasisaddang\system\CodeIgniter.php(825): App\Controllers\Api->send_sipasi()
+#2 C:\xampp\htdocs\irigasisaddang\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#3 C:\xampp\htdocs\irigasisaddang\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\irigasisaddang\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\irigasisaddang\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-03-01 00:54:41 --> Attempt to read property "solar_rad" on array
+#0 C:\xampp\htdocs\irigasisaddang\app\Controllers\Api.php(861): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 861)
+#1 C:\xampp\htdocs\irigasisaddang\system\CodeIgniter.php(825): App\Controllers\Api->send_sipasi()
+#2 C:\xampp\htdocs\irigasisaddang\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#3 C:\xampp\htdocs\irigasisaddang\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\irigasisaddang\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\irigasisaddang\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}

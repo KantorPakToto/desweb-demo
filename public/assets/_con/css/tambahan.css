@@ -1,0 +1,931 @@
+.pos {
+    margin-left: 0;
+}
+
+.pos-tengah>img {
+    width: 200px;
+    display: block;
+    margin: auto;
+}
+
+.kanvas-container {
+    height: 250px;
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: DodgerBlue;
+    align-items: center;
+    justify-content: center;
+}
+
+.flex-container>div {
+    background-color: #f1f1f1;
+    margin: 10px;
+    /* border-radius: 25%; */
+}
+
+.cctv {
+    width: 100%;
+    height: 50%;
+}
+
+.margin-kiri {
+    margin-left: 1em;
+}
+
+
+.waktu {
+    display: none;
+}
+
+.logoFull {
+    display: block;
+}
+
+.logoMini {
+    display: none;
+}
+
+/* Desktop*/
+@media screen and (min-width: 1030px) {
+    .waktu {
+        display: block;
+        color: #000;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .logoFull {
+        display: none;
+    }
+
+    .logoMini {
+        display: block;
+    }
+}
+
+.content-wrap {
+    /* overflow-y: hidden; */
+    height: 100vh;
+}
+
+.content-utama {
+    padding: 65px 0 0 0;
+}
+
+.background {
+    /* z-index: -1; */
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.label-bsa1 {
+    position: absolute;
+    z-index: 5;
+    top: 55%;
+    left: 25%;
+    color: orange;
+    font-weight: bold;
+    font-size: 15pt;
+}
+
+.label-bpk8 {
+    position: absolute;
+    z-index: 5;
+    top: 55%;
+    left: 47%;
+    color: orange;
+    font-weight: bold;
+    font-size: 15pt;
+}
+
+.label-bsa10 {
+    position: absolute;
+    z-index: 5;
+    top: 87%;
+    left: 69%;
+    color: orange;
+    font-weight: bold;
+    font-size: 15pt;
+}
+
+.label-bmrn1 {
+    position: absolute;
+    z-index: 5;
+    top: 22%;
+    left: 84%;
+    color: orange;
+    font-weight: bold;
+    font-size: 15pt;
+}
+
+.label-bpk8te {
+    position: absolute;
+    z-index: 5;
+    top: 55%;
+    left: 84%;
+    color: orange;
+    font-weight: bold;
+    font-size: 15pt;
+}
+
+.label-bmj1 {
+    position: absolute;
+    z-index: 5;
+    top: 87%;
+    left: 84%;
+    color: orange;
+    font-weight: bold;
+    font-size: 15pt;
+}
+
+/* =================keterangan label=============== */
+.ket-bsa1 {
+    position: absolute;
+    z-index: 5;
+    top: 58%;
+    left: 25%;
+    color: white;
+    font: 1em sans-serif;
+}
+
+.ket-bpk8 {
+    position: absolute;
+    z-index: 5;
+    top: 58%;
+    left: 47%;
+    color: white;
+    font: 1em sans-serif;
+}
+
+.ket-bsa10 {
+    position: absolute;
+    z-index: 5;
+    top: 90%;
+    left: 69%;
+    color: white;
+    font: 1em sans-serif;
+}
+
+.ket-rf {
+    position: absolute;
+    z-index: 5;
+    top: 70%;
+    left: 25%;
+    color: orange;
+    font: 1em sans-serif;
+    font-weight: bold;
+}
+
+.ket-ggst1 {
+    position: absolute;
+    z-index: 5;
+    top: 75%;
+    left: 25%;
+    color: cyan;
+    font: 1em sans-serif;
+    font-weight: bold;
+}
+
+.ket-tma {
+    position: absolute;
+    z-index: 5;
+    top: 70%;
+    left: 47%;
+    color: orange;
+    font: 1em sans-serif;
+    font-weight: bold;
+}
+
+.ket-ggst2 {
+    position: absolute;
+    z-index: 5;
+    top: 75%;
+    left: 47%;
+    color: cyan;
+    font: 1em sans-serif;
+    font-weight: bold;
+}
+
+/* ==============bsa1================== */
+.bsa1-wlu {
+    position: absolute;
+    z-index: 5;
+    top: 29%;
+    left: 17%;
+    color: greenyellow;
+}
+
+.bsa1-gt1 {
+    position: absolute;
+    z-index: 5;
+    top: 14%;
+    left: 28%;
+    color: cyan;
+}
+
+.bsa1-gt2 {
+    position: absolute;
+    z-index: 5;
+    top: 25%;
+    left: 28%;
+    color: cyan;
+}
+
+.bsa1-gt3 {
+    position: absolute;
+    z-index: 5;
+    top: 36%;
+    left: 28%;
+    color: cyan;
+}
+
+.bsa1-gt4 {
+    position: absolute;
+    z-index: 5;
+    top: 47.5%;
+    left: 28%;
+    color: cyan;
+}
+
+.bsa1-dbt1 {
+    position: absolute;
+    z-index: 5;
+    top: 18%;
+    left: 28%;
+    color: yellow;
+}
+
+.bsa1-dbt2 {
+    position: absolute;
+    z-index: 5;
+    top: 30%;
+    left: 28%;
+    color: yellow;
+}
+
+.bsa1-dbt3 {
+    position: absolute;
+    z-index: 5;
+    top: 41%;
+    left: 28%;
+    color: yellow;
+}
+
+.bsa1-dbt4 {
+    position: absolute;
+    z-index: 5;
+    top: 52%;
+    left: 28%;
+    color: yellow;
+}
+
+.bsa1-wld1 {
+    position: absolute;
+    z-index: 5;
+    top: 13%;
+    left: 33.5%;
+    color: greenyellow;
+}
+
+.bsa1-wld2 {
+    position: absolute;
+    z-index: 5;
+    top: 24%;
+    left: 33.5%;
+    color: greenyellow;
+}
+
+.bsa1-wld3 {
+    position: absolute;
+    z-index: 5;
+    top: 36%;
+    left: 33.5%;
+    color: greenyellow;
+}
+
+.bsa1-wld4 {
+    position: absolute;
+    z-index: 5;
+    top: 47%;
+    left: 33.5%;
+    color: greenyellow;
+}
+
+/* ==============bpk8================== */
+.bpk8-wlu {
+    position: absolute;
+    z-index: 5;
+    top: 29%;
+    left: 39%;
+    color: greenyellow;
+}
+
+.bpk8-gt1 {
+    position: absolute;
+    z-index: 5;
+    top: 14%;
+    left: 50%;
+    color: cyan;
+}
+
+.bpk8-gt2 {
+    position: absolute;
+    z-index: 5;
+    top: 25%;
+    left: 50%;
+    color: cyan;
+}
+
+.bpk8-gt3 {
+    position: absolute;
+    z-index: 5;
+    top: 36%;
+    left: 50%;
+    color: cyan;
+}
+
+.bpk8-gt4 {
+    position: absolute;
+    z-index: 5;
+    top: 47%;
+    left: 50%;
+    color: cyan;
+}
+
+.bpk8-dbt1 {
+    position: absolute;
+    z-index: 5;
+    top: 18%;
+    left: 50%;
+    color: yellow;
+}
+
+.bpk8-dbt2 {
+    position: absolute;
+    z-index: 5;
+    top: 30%;
+    left: 50%;
+    color: yellow;
+}
+
+.bpk8-dbt3 {
+    position: absolute;
+    z-index: 5;
+    top: 41%;
+    left: 50%;
+    color: yellow;
+}
+
+.bpk8-dbt4 {
+    position: absolute;
+    z-index: 5;
+    top: 52%;
+    left: 50%;
+    color: yellow;
+}
+
+
+.bpk8-wld1 {
+    position: absolute;
+    z-index: 5;
+    top: 13%;
+    left: 55.5%;
+    color: greenyellow;
+}
+
+.bpk8-wld2 {
+    position: absolute;
+    z-index: 5;
+    top: 24%;
+    left: 55.5%;
+    color: greenyellow;
+}
+
+.bpk8-wld3 {
+    position: absolute;
+    z-index: 5;
+    top: 36%;
+    left: 55.5%;
+    color: greenyellow;
+}
+
+.bpk8-wld4 {
+    position: absolute;
+    z-index: 5;
+    top: 47%;
+    left: 55.5%;
+    color: greenyellow;
+}
+
+
+/* ========== bsa10 ================ */
+
+.bsa10-wlu {
+    position: absolute;
+    z-index: 5;
+    top: 43%;
+    left: 61%;
+    color: greenyellow;
+}
+
+.bsa10-gt1 {
+    position: absolute;
+    z-index: 5;
+    top: 11%;
+    left: 72%;
+    color: cyan;
+}
+
+.bsa10-gt2 {
+    position: absolute;
+    z-index: 5;
+    top: 19%;
+    left: 72%;
+    color: cyan;
+}
+
+.bsa10-gt3 {
+    position: absolute;
+    z-index: 5;
+    top: 27%;
+    left: 72%;
+    color: cyan;
+}
+
+.bsa10-gt4 {
+    position: absolute;
+    z-index: 5;
+    top: 35%;
+    left: 72%;
+    color: cyan;
+}
+
+.bsa10-gt5 {
+    position: absolute;
+    z-index: 5;
+    top: 42.5%;
+    left: 72%;
+    color: cyan;
+}
+
+.bsa10-gt6 {
+    position: absolute;
+    z-index: 5;
+    top: 49.2%;
+    left: 72%;
+    color: cyan;
+}
+
+.bsa10-gt7 {
+    position: absolute;
+    z-index: 5;
+    top: 56%;
+    left: 72%;
+    color: cyan;
+}
+
+.bsa10-gt8 {
+    position: absolute;
+    z-index: 5;
+    top: 64%;
+    left: 72%;
+    color: cyan;
+}
+
+.bsa10-gt9 {
+    position: absolute;
+    z-index: 5;
+    top: 72%;
+    left: 72%;
+    color: cyan;
+}
+
+.bsa10-gt10 {
+    position: absolute;
+    z-index: 5;
+    top: 79%;
+    left: 72%;
+    color: cyan;
+}
+
+.bsa10-dbt1 {
+    position: absolute;
+    z-index: 5;
+    top: 15%;
+    left: 72%;
+    color: yellow;
+}
+
+.bsa10-dbt2 {
+    position: absolute;
+    z-index: 5;
+    top: 23%;
+    left: 72%;
+    color: yellow;
+}
+
+.bsa10-dbt3 {
+    position: absolute;
+    z-index: 5;
+    top: 31%;
+    left: 72%;
+    color: yellow;
+}
+
+.bsa10-dbt4 {
+    position: absolute;
+    z-index: 5;
+    top: 39%;
+    left: 72%;
+    color: yellow
+}
+
+.bsa10-dbt5 {
+    position: absolute;
+    z-index: 5;
+    top: 46%;
+    left: 72%;
+    color: yellow;
+}
+
+.bsa10-dbt6 {
+    position: absolute;
+    z-index: 5;
+    top: 52%;
+    left: 72%;
+    color: yellow;
+}
+
+.bsa10-dbt7 {
+    position: absolute;
+    z-index: 5;
+    top: 60%;
+    left: 72%;
+    color: yellow;
+}
+
+.bsa10-dbt8 {
+    position: absolute;
+    z-index: 5;
+    top: 67.5%;
+    left: 72%;
+    color: yellow;
+}
+
+.bsa10-dbt9 {
+    position: absolute;
+    z-index: 5;
+    top: 75%;
+    left: 72%;
+    color: yellow;
+}
+
+.bsa10-dbt10 {
+    position: absolute;
+    z-index: 5;
+    top: 82%;
+    left: 72%;
+    color: yellow;
+}
+
+.bsa10-wld1 {
+    position: absolute;
+    z-index: 5;
+    top: 10%;
+    left: 78%;
+    color: greenyellow;
+}
+
+.bsa10-wld2 {
+    position: absolute;
+    z-index: 5;
+    top: 18%;
+    left: 78%;
+    color: greenyellow;
+}
+
+.bsa10-wld3 {
+    position: absolute;
+    z-index: 5;
+    top: 26.5%;
+    left: 78%;
+    color: greenyellow;
+}
+
+.bsa10-wld4 {
+    position: absolute;
+    z-index: 5;
+    top: 34%;
+    left: 78%;
+    color: greenyellow;
+}
+
+.bsa10-wld5 {
+    position: absolute;
+    z-index: 5;
+    top: 41.5%;
+    left: 78%;
+    color: greenyellow;
+}
+
+.bsa10-wld6 {
+    position: absolute;
+    z-index: 5;
+    top: 48%;
+    left: 78%;
+    color: greenyellow;
+}
+
+.bsa10-wld7 {
+    position: absolute;
+    z-index: 5;
+    top: 55%;
+    left: 78%;
+    color: greenyellow;
+}
+
+.bsa10-wld8 {
+    position: absolute;
+    z-index: 5;
+    top: 63%;
+    left: 78%;
+    color: greenyellow;
+}
+
+.bsa10-wld9 {
+    position: absolute;
+    z-index: 5;
+    top: 71%;
+    left: 78%;
+    color: greenyellow;
+}
+
+.bsa10-wld10 {
+    position: absolute;
+    z-index: 5;
+    top: 78%;
+    left: 78%;
+    color: greenyellow;
+}
+
+
+/* ========== bmrn1 ================ */
+
+.bmrn1-wlu {
+    position: absolute;
+    z-index: 5;
+    top: 13%;
+    left: 83%;
+    color: greenyellow;
+}
+
+.bmrn1-gt1 {
+    position: absolute;
+    z-index: 5;
+    top: 11%;
+    left: 89%;
+    color: cyan;
+}
+
+.bmrn1-dbt1 {
+    position: absolute;
+    z-index: 5;
+    top: 20%;
+    left: 89%;
+    color: yellow;
+}
+
+.bmrn1-wld {
+    position: absolute;
+    z-index: 5;
+    top: 13%;
+    left: 94%;
+    color: greenyellow;
+}
+
+/* ========== bmj1 ================ */
+
+.bpk8te-wlu {
+    position: absolute;
+    z-index: 5;
+    top: 45%;
+    left: 83%;
+    color: greenyellow;
+}
+
+.bpk8te-gt1 {
+    position: absolute;
+    z-index: 5;
+    top: 43%;
+    left: 89%;
+    color: cyan;
+}
+
+.bpk8te-dbt1 {
+    position: absolute;
+    z-index: 5;
+    top: 52%;
+    left: 89%;
+    color: yellow;
+}
+
+.bpk8te-wld {
+    position: absolute;
+    z-index: 5;
+    top: 45%;
+    left: 94%;
+    color: greenyellow;
+}
+
+/* ========== bmj1 ================ */
+
+.bmj1-wlu {
+    position: absolute;
+    z-index: 5;
+    top: 78%;
+    left: 83%;
+    color: greenyellow;
+}
+
+.bmj1-gt1 {
+    position: absolute;
+    z-index: 5;
+    top: 76%;
+    left: 89%;
+    color: cyan;
+}
+
+.bmj1-dbt1 {
+    position: absolute;
+    z-index: 5;
+    top: 85%;
+    left: 89%;
+    color: yellow;
+}
+
+.bmj1-wld {
+    position: absolute;
+    z-index: 5;
+    top: 78%;
+    left: 94%;
+    color: greenyellow;
+}
+
+
+/* ==========tambahan=================================== */
+
+.bsa1-supplai {
+    position: absolute;
+    z-index: 5;
+    top: 59%;
+    left: 35%;
+    color: greenyellow;
+}
+
+.bsa1-butuh {
+    position: absolute;
+    z-index: 5;
+    top: 61%;
+    left: 35%;
+    color: greenyellow;
+}
+
+.bsa1-selisih {
+    position: absolute;
+    z-index: 5;
+    top: 63%;
+    left: 35%;
+    color: greenyellow;
+}
+
+.bpk8-supplai {
+    position: absolute;
+    z-index: 5;
+    top: 59%;
+    left: 57%;
+    color: greenyellow;
+}
+
+.bpk8-butuh {
+    position: absolute;
+    z-index: 5;
+    top: 61%;
+    left: 57%;
+    color: greenyellow;
+}
+
+.bpk8-selisih {
+    position: absolute;
+    z-index: 5;
+    top: 63%;
+    left: 57%;
+    color: greenyellow;
+}
+
+.bsa10-supplai {
+    position: absolute;
+    z-index: 5;
+    top: 91%;
+    left: 78%;
+    color: greenyellow;
+}
+
+.bsa10-butuh {
+    position: absolute;
+    z-index: 5;
+    top: 93%;
+    left: 78%;
+    color: greenyellow;
+}
+
+.bsa10-selisih {
+    position: absolute;
+    z-index: 5;
+    top: 95%;
+    left: 78%;
+    color: greenyellow;
+}
+
+.rf-nilai {
+    position: absolute;
+    z-index: 5;
+    top: 71%;
+    left: 35%;
+    color: white;
+}
+
+.rf-waktu {
+    position: absolute;
+    z-index: 5;
+    top: 73%;
+    left: 35%;
+    color: white;
+}
+
+.rf-waktu-bsa1 {
+    position: absolute;
+    z-index: 5;
+    top: 76%;
+    left: 35%;
+    color: white;
+}
+
+.rf-waktu-bpk8 {
+    position: absolute;
+    z-index: 5;
+    top: 78%;
+    left: 35%;
+    color: white;
+}
+
+.rf-waktu-bsa10 {
+    position: absolute;
+    z-index: 5;
+    top: 80%;
+    left: 35%;
+    color: white;
+}
+
+.tma-nilai {
+    position: absolute;
+    z-index: 5;
+    top: 71%;
+    left: 57%;
+    color: white;
+}
+
+.tma-waktu {
+    position: absolute;
+    z-index: 5;
+    top: 73%;
+    left: 57%;
+    color: white;
+}
+
+.tma-waktu-bmj1 {
+    position: absolute;
+    z-index: 5;
+    top: 76%;
+    left: 57%;
+    color: white;
+}
+
+.tma-waktu-bmrn1 {
+    position: absolute;
+    z-index: 5;
+    top: 78%;
+    left: 57%;
+    color: white;
+}
+
+.tma-waktu-aws {
+    position: absolute;
+    z-index: 5;
+    top: 80%;
+    left: 57%;
+    color: white;
+}
