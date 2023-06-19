@@ -1,0 +1,55 @@
+CRITICAL - 2022-02-11 00:23:40 --> Undefined variable $id
+#0 C:\xampp\htdocs\irigasisaddang\app\Views\grafik.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 39)
+#1 C:\xampp\htdocs\irigasisaddang\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\irigasisaddang\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\irigasisaddang\system\Common.php(1089): CodeIgniter\View\View->render('grafik', Array, true)
+#4 C:\xampp\htdocs\irigasisaddang\app\Controllers\Grafik.php(28): view('grafik', Array)
+#5 C:\xampp\htdocs\irigasisaddang\system\CodeIgniter.php(825): App\Controllers\Grafik->index('bsa1')
+#6 C:\xampp\htdocs\irigasisaddang\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Grafik))
+#7 C:\xampp\htdocs\irigasisaddang\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\irigasisaddang\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\irigasisaddang\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-02-11 00:36:43 --> Too few arguments to function App\Controllers\Grafik::index(), 1 passed in C:\xampp\htdocs\irigasisaddang\system\CodeIgniter.php on line 825 and exactly 2 expected
+#0 C:\xampp\htdocs\irigasisaddang\system\CodeIgniter.php(825): App\Controllers\Grafik->index('bsa1')
+#1 C:\xampp\htdocs\irigasisaddang\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Grafik))
+#2 C:\xampp\htdocs\irigasisaddang\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\irigasisaddang\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\irigasisaddang\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-02-11 01:13:14 --> Undefined array key "waktu"
+#0 C:\xampp\htdocs\irigasisaddang\app\Views\grafik.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 30)
+#1 C:\xampp\htdocs\irigasisaddang\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\irigasisaddang\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\irigasisaddang\system\Common.php(1089): CodeIgniter\View\View->render('grafik', Array, true)
+#4 C:\xampp\htdocs\irigasisaddang\app\Controllers\Grafik.php(40): view('grafik', Array)
+#5 C:\xampp\htdocs\irigasisaddang\system\CodeIgniter.php(825): App\Controllers\Grafik->index('bsa1', 'gt1')
+#6 C:\xampp\htdocs\irigasisaddang\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Grafik))
+#7 C:\xampp\htdocs\irigasisaddang\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\irigasisaddang\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\irigasisaddang\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-02-11 01:43:14 --> Undefined variable $arraydata
+#0 C:\xampp\htdocs\irigasisaddang\app\Controllers\Grafik.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 32)
+#1 C:\xampp\htdocs\irigasisaddang\system\CodeIgniter.php(825): App\Controllers\Grafik->index('bsa1', 'home')
+#2 C:\xampp\htdocs\irigasisaddang\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Grafik))
+#3 C:\xampp\htdocs\irigasisaddang\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\irigasisaddang\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\irigasisaddang\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-02-11 01:43:16 --> Undefined variable $arraydata
+#0 C:\xampp\htdocs\irigasisaddang\app\Controllers\Grafik.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 32)
+#1 C:\xampp\htdocs\irigasisaddang\system\CodeIgniter.php(825): App\Controllers\Grafik->index('bsa1', 'home')
+#2 C:\xampp\htdocs\irigasisaddang\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Grafik))
+#3 C:\xampp\htdocs\irigasisaddang\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\irigasisaddang\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\irigasisaddang\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-02-11 01:43:19 --> Undefined variable $arraydata
+#0 C:\xampp\htdocs\irigasisaddang\app\Controllers\Grafik.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 32)
+#1 C:\xampp\htdocs\irigasisaddang\system\CodeIgniter.php(825): App\Controllers\Grafik->index('bsa1', 'home')
+#2 C:\xampp\htdocs\irigasisaddang\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Grafik))
+#3 C:\xampp\htdocs\irigasisaddang\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\irigasisaddang\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\irigasisaddang\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}

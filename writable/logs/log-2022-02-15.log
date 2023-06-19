@@ -1,0 +1,90 @@
+CRITICAL - 2022-02-15 01:34:39 --> Undefined variable $nama
+#0 C:\xampp\htdocs\irigasisaddang\app\Views\pos.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 58)
+#1 C:\xampp\htdocs\irigasisaddang\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\irigasisaddang\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\irigasisaddang\system\Common.php(1089): CodeIgniter\View\View->render('pos', Array, true)
+#4 C:\xampp\htdocs\irigasisaddang\app\Controllers\Pos.php(19): view('pos', Array)
+#5 C:\xampp\htdocs\irigasisaddang\system\CodeIgniter.php(825): App\Controllers\Pos->index('bsa1')
+#6 C:\xampp\htdocs\irigasisaddang\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pos))
+#7 C:\xampp\htdocs\irigasisaddang\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\irigasisaddang\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\irigasisaddang\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-02-15 01:38:04 --> Undefined variable $data
+#0 C:\xampp\htdocs\irigasisaddang\app\Views\pos.php(88): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 88)
+#1 C:\xampp\htdocs\irigasisaddang\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\irigasisaddang\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\irigasisaddang\system\Common.php(1089): CodeIgniter\View\View->render('pos', Array, true)
+#4 C:\xampp\htdocs\irigasisaddang\app\Controllers\Pos.php(19): view('pos', Array)
+#5 C:\xampp\htdocs\irigasisaddang\system\CodeIgniter.php(825): App\Controllers\Pos->index('bsa1')
+#6 C:\xampp\htdocs\irigasisaddang\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pos))
+#7 C:\xampp\htdocs\irigasisaddang\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\irigasisaddang\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\irigasisaddang\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-02-15 01:58:17 --> Undefined variable $nilai1
+#0 C:\xampp\htdocs\irigasisaddang\app\Views\pos.php(89): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 89)
+#1 C:\xampp\htdocs\irigasisaddang\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\irigasisaddang\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\irigasisaddang\system\Common.php(1089): CodeIgniter\View\View->render('pos', Array, true)
+#4 C:\xampp\htdocs\irigasisaddang\app\Controllers\Pos.php(47): view('pos', Array)
+#5 C:\xampp\htdocs\irigasisaddang\system\CodeIgniter.php(825): App\Controllers\Pos->index('bsa1')
+#6 C:\xampp\htdocs\irigasisaddang\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pos))
+#7 C:\xampp\htdocs\irigasisaddang\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\irigasisaddang\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\irigasisaddang\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-02-15 02:27:43 --> Call to a member function limit() on array
+#0 C:\xampp\htdocs\irigasisaddang\system\CodeIgniter.php(825): App\Controllers\Pos->index('bsa1')
+#1 C:\xampp\htdocs\irigasisaddang\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pos))
+#2 C:\xampp\htdocs\irigasisaddang\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\irigasisaddang\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\irigasisaddang\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+ERROR - 2022-02-15 02:32:46 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '-10, 10' at line 5
+CRITICAL - 2022-02-15 02:32:46 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '-10, 10' at line 5
+#0 C:\xampp\htdocs\irigasisaddang\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\irigasisaddang\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\irigasisaddang\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\irigasisaddang\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\irigasisaddang\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\irigasisaddang\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(10, -10)
+#6 C:\xampp\htdocs\irigasisaddang\app\Controllers\Pos.php(22): CodeIgniter\BaseModel->findAll(10, -10)
+#7 C:\xampp\htdocs\irigasisaddang\system\CodeIgniter.php(825): App\Controllers\Pos->index('bsa1')
+#8 C:\xampp\htdocs\irigasisaddang\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pos))
+#9 C:\xampp\htdocs\irigasisaddang\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\irigasisaddang\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\irigasisaddang\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2022-02-15 02:35:38 --> Undefined variable $array_reverse
+#0 C:\xampp\htdocs\irigasisaddang\app\Controllers\Pos.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 30)
+#1 C:\xampp\htdocs\irigasisaddang\system\CodeIgniter.php(825): App\Controllers\Pos->index('bsa1')
+#2 C:\xampp\htdocs\irigasisaddang\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pos))
+#3 C:\xampp\htdocs\irigasisaddang\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\irigasisaddang\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\irigasisaddang\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-02-15 11:51:17 --> Undefined variable $list
+#0 C:\xampp\htdocs\irigasisaddang\app\Views\pos.php(143): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 143)
+#1 C:\xampp\htdocs\irigasisaddang\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\irigasisaddang\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\irigasisaddang\system\Common.php(1089): CodeIgniter\View\View->render('pos', Array, true)
+#4 C:\xampp\htdocs\irigasisaddang\app\Controllers\Pos.php(45): view('pos', Array)
+#5 C:\xampp\htdocs\irigasisaddang\system\CodeIgniter.php(825): App\Controllers\Pos->index('bsa1')
+#6 C:\xampp\htdocs\irigasisaddang\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pos))
+#7 C:\xampp\htdocs\irigasisaddang\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\irigasisaddang\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\irigasisaddang\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-02-15 12:32:49 --> Undefined array key "id"
+#0 C:\xampp\htdocs\irigasisaddang\app\Views\pos.php(144): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 144)
+#1 C:\xampp\htdocs\irigasisaddang\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\irigasisaddang\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\irigasisaddang\system\Common.php(1089): CodeIgniter\View\View->render('pos', Array, true)
+#4 C:\xampp\htdocs\irigasisaddang\app\Controllers\Pos.php(45): view('pos', Array)
+#5 C:\xampp\htdocs\irigasisaddang\system\CodeIgniter.php(825): App\Controllers\Pos->index('bsa1')
+#6 C:\xampp\htdocs\irigasisaddang\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pos))
+#7 C:\xampp\htdocs\irigasisaddang\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\irigasisaddang\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\irigasisaddang\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}

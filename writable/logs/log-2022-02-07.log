@@ -1,0 +1,16 @@
+CRITICAL - 2022-02-07 04:18:07 --> Call to undefined function CodeIgniter\Debug\csp_script_nonce()
+#0 C:\xampp\htdocs\irigasisaddang\system\Filters\DebugToolbar.php(40): CodeIgniter\Debug\Toolbar->prepare(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response))
+#1 C:\xampp\htdocs\irigasisaddang\system\Filters\Filters.php(196): CodeIgniter\Filters\DebugToolbar->after(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), NULL)
+#2 C:\xampp\htdocs\irigasisaddang\system\CodeIgniter.php(429): CodeIgniter\Filters\Filters->run('api/get_bsa1/wl...', 'after')
+#3 C:\xampp\htdocs\irigasisaddang\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\irigasisaddang\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\irigasisaddang\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-02-07 04:18:24 --> Call to undefined function CodeIgniter\Debug\csp_script_nonce()
+#0 C:\xampp\htdocs\irigasisaddang\system\Filters\DebugToolbar.php(40): CodeIgniter\Debug\Toolbar->prepare(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response))
+#1 C:\xampp\htdocs\irigasisaddang\system\Filters\Filters.php(196): CodeIgniter\Filters\DebugToolbar->after(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), NULL)
+#2 C:\xampp\htdocs\irigasisaddang\system\CodeIgniter.php(429): CodeIgniter\Filters\Filters->run('api/get_bsa1/wl...', 'after')
+#3 C:\xampp\htdocs\irigasisaddang\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\irigasisaddang\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\irigasisaddang\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
